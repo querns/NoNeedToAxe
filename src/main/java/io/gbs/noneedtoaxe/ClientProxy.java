@@ -2,9 +2,10 @@ package io.gbs.noneedtoaxe;
 
 import static io.gbs.noneedtoaxe.NoNeedToAxe.LOG;
 
-import com.rwtema.extrautils.ExtraUtils;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.MinecraftForgeClient;
+
+import com.rwtema.extrautils.ExtraUtils;
 
 import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;

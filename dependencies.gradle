@@ -34,13 +34,15 @@
  * For more details, see https://docs.gradle.org/8.0.1/userguide/java_library_plugin.html#sec:java_library_configurations_graph
  */
 dependencies {
+    // Uncomment these to force the dev environment to load these mods for testing and such
+    /*
     implementation("com.github.GTNewHorizons:Backhand:1.8.14:dev") { transitive = false }
     implementation("ganymedes01.etfuturum:Et-Futurum-Requiem:2.6.2.21-GTNH-daily") { transitive = false }
     implementation rfg.deobf("curse.maven:extra-utilities-225561:2264384")
+     */
 
-    /*
+    // Comment these out if you're uncommenting the above ones
     compileOnlyApi("com.github.GTNewHorizons:Backhand:1.8.14:dev") { transitive = false }
     compileOnlyApi("ganymedes01.etfuturum:Et-Futurum-Requiem:2.6.2.21-GTNH-daily") { transitive = false }
     compileOnly rfg.deobf("curse.maven:extra-utilities-225561:2264384")
-     */
 }
