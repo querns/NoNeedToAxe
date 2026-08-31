@@ -2,6 +2,8 @@
 
 Supported Minecraft version: 1.7.10
 
+Required mods: Backhand
+
 This is a small client-side mod that makes certain items not render when held in the offhand.
 
 The current supported items:
